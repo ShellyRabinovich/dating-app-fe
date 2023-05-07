@@ -1,0 +1,14 @@
+h3{
+  
+  width: 30%;
+font-size:x-large;
+  position: absolute;
+  left: 50%;  
+  margin-left: -15%;
+  font-family: Garamond;
+}
+.header-section{
+position: relative; 
+height: 100%;
+background-color: pink;
+}
