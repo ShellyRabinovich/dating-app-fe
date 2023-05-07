@@ -1,0 +1,35 @@
+button {
+    display: block;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius:4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 7px;
+    }
+  
+    button:hover {
+      background-color: #3e8e41;
+    }
+    
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    input{
+      /* margin-top: 25px; */
+      padding: 10px;
+      padding-left: 25px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+  }
+  
+  input:focus {
+      outline: none;
+      border-color: #4caf50;
+      box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+    }

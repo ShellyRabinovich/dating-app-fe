@@ -1,12 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "../login/Login";
-
-
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Login from "../login/Login"
+import Register from "../register/Register"
+import Footer from "./footer/Footer"
+import '../styles/styles.css'
+import Header from "./header/Header"
 import "./Layout.css"
-import Menu from "./menu/Menu";
-
+import Menu from "./menu/Menu"
 
 function Layout() {
     return (
@@ -21,6 +20,7 @@ function Layout() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/login" element={<Login />} />
+                        <Route path="/register" element={<Register />} />
                     </Routes>
                 </BrowserRouter>
             </main>
@@ -28,6 +28,6 @@ function Layout() {
                 <Footer></Footer>
             </footer>
         </section>
-    );
+    )
 }
-export default Layout;
+export default Layout
