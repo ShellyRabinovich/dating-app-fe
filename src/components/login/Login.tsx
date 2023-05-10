@@ -62,7 +62,7 @@ function Login() {
                     <div className="form-text-box">
                         <input
                             id="filling-box"
-                            type="text"
+                            type="password"
                             placeholder="password"
                             onChange={(event) =>
                                 setPassword(event.target.value)
